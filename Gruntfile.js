@@ -16,30 +16,36 @@ module.exports = function(grunt) {
                 }]
             }
         },
-        connect: {
-            server: {
-              options: {
-                port: 1234,
-                base: '.'
-              }
-            }
+        "neuron-test":{
+            all:{}
         },
-        mocha: {
-            all: ['test/**/*.html'],
-            options: {
-                reporter: 'Spec',
-                run: false,
-                ignoreLeaks: false,
-                timeout:5000
+        "neuron-build": {
+            server: {
+                all:{},
+                options:{
+                    cwd:process.cwd()
+                }
             }
         }
+        // mocha: {
+        //     all: ['http://localhost:9074/mod/mbox/0.0.1/test/index.html'],
+        //     options: {
+        //         reporter: 'Spec',
+        //         run: false,
+        //         ignoreLeaks: false,
+        //         timeout:5000
+        //     }
+        // }
     });
 
     grunt.loadNpmTasks("grunt-contrib-jshint");
+    grunt.loadNpmTasks("grunt-contrib-uglify");
     grunt.loadNpmTasks("grunt-contrib-connect");
-    grunt.loadNpmTasks("grunt-mocha");
+    grunt.loadNpmTasks("grunt-cortex-neuron-build");
+    grunt.loadNpmTasks("grunt-cortex-neuron-test");
+    // grunt.loadNpmTasks("grunt-mocha");
     // grunt.loadNpmTasks("grunt-contrib-uglify");
 
-    grunt.registerTask("test", ["neuron-build", "connect", "mocha"]);
+
     grunt.registerTask("default", ["jshint" /*, "uglify" */]);
 };

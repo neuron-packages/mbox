@@ -34,7 +34,10 @@
     "grunt-contrib-concat": "~0.1.2",
     "grunt-contrib-uglify": "~0.1.1",
     "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-watch": "~0.2.0"
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-cortex-ftp-deploy": "0.0.12",
+    "grunt-cortex-neuron-build": "0.0.4",
+    "grunt-shell-spawn": "~0.3.0"
   },
   "keywords": [],
   "cortex": {
@@ -42,9 +45,13 @@
       "lang": "~0.1.0",
       "class": "~0.1.0",
       "jquery": "~1.9.2"
+    },
+    "directories":{
+      "css":"css"
     }
   },
   "dependencies": {
-    "grunt-cortex-neuron-build": "0.0.4"
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-shell": "~0.5.0"
   }
 }
