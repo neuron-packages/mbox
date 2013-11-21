@@ -1,7 +1,7 @@
 {
   "name": "mbox",
   "description": "The best project ever.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "",
   "author": {
     "name": "supersheep",
@@ -27,18 +27,6 @@
     "test": "grunt test"
   },
   "main": "lib/index.js",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-mocha": "~0.3.1",
-    "grunt-contrib-connect": "~0.3.0",
-    "grunt-contrib-concat": "~0.1.2",
-    "grunt-contrib-uglify": "~0.1.1",
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-watch": "~0.2.0",
-    "grunt-cortex-ftp-deploy": "0.0.12",
-    "grunt-cortex-neuron-build": "0.0.4",
-    "grunt-shell-spawn": "~0.3.0"
-  },
   "keywords": [],
   "cortex": {
     "dependencies": {
@@ -49,9 +37,5 @@
     "directories":{
       "css":"css"
     }
-  },
-  "dependencies": {
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-shell": "~0.5.0"
   }
 }
