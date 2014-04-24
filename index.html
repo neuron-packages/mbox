@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mbox</title>
+    <link rel="stylesheet" href="./css/mbox.css">
+    <script src="./neurons/neuron/latest/neuron.js"></script>
+    <script>
+        neuron.config({
+            path:"neurons"
+        });
+    </script>
+</head>
+<body>
+
+
+    <script>
+        _use("mbox",function(Mbox){
+            new Mbox({
+                content:"<div>lalala</div>"
+            }).open();
+        })
+    </script>
+</body>
+</html>

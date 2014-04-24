@@ -30,12 +30,17 @@
   "keywords": [],
   "cortex": {
     "dependencies": {
-      "lang": "~0.1.0",
-      "class": "~0.1.0",
+      "class": "~2.0.5",
+      "lang": "~1.0.0",
       "jquery": "~1.9.2"
     },
-    "directories":{
-      "css":"css"
-    }
+    "directories": {
+      "css": "css"
+    },
+    "asyncDependencies": {},
+    "devDependencies": {
+      "neuron": "~4.4.1"
+    },
+    "scripts": {}
   }
 }
