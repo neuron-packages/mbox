@@ -1,0 +1,88 @@
+{
+    "name": "mbox",
+    "version": "0.1.1",
+    "dependencies": {
+        "assertion-error": {
+            "from": "assertion-error@~1.0.0",
+            "version": "1.0.0"
+        },
+        "type-detect": {
+            "from": "type-detect@~0.1.2",
+            "version": "0.1.2"
+        },
+        "lang": {
+            "from": "lang@~1.0.0",
+            "version": "1.0.0"
+        },
+        "jquery": {
+            "from": "jquery@~1.9.2",
+            "version": "1.9.2"
+        },
+        "deep-eql": {
+            "from": "deep-eql@~0.1.3",
+            "version": "0.1.3",
+            "dependencies": {
+                "type-detect": {
+                    "from": "type-detect@~0.1.2",
+                    "version": "0.1.2"
+                }
+            }
+        },
+        "neuron": {
+            "from": "neuron@~5.0.0",
+            "version": "5.0.0"
+        },
+        "class": {
+            "from": "class@~2.0.5",
+            "version": "2.0.5",
+            "dependencies": {
+                "underscore": {
+                    "from": "underscore@~1.5.2",
+                    "version": "1.5.3"
+                },
+                "util": {
+                    "from": "util@~1.0.0",
+                    "version": "1.0.5-prelease",
+                    "dependencies": {
+                        "json": {
+                            "from": "json@~1.0.0",
+                            "version": "1.0.1"
+                        }
+                    }
+                },
+                "events": {
+                    "from": "events@~1.0.0",
+                    "version": "1.0.5",
+                    "dependencies": {
+                        "util": {
+                            "from": "util@~1.0.0",
+                            "version": "1.0.5-prelease",
+                            "dependencies": {
+                                "json": {
+                                    "from": "json@~1.0.0",
+                                    "version": "1.0.1"
+                                }
+                            }
+                        }
+                    }
+                },
+                "clone": {
+                    "from": "clone@~0.1.11",
+                    "version": "0.1.13-prelease",
+                    "dependencies": {
+                        "util": {
+                            "from": "util@~1.0.2",
+                            "version": "1.0.5-prelease",
+                            "dependencies": {
+                                "json": {
+                                    "from": "json@~1.0.0",
+                                    "version": "1.0.1"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
