@@ -14,12 +14,10 @@
   "bugs": {
     "url": "http://code.dianpingoa.com/neurons/mbox/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "/blob/master/LICENSE-MIT"
-    }
-  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "/blob/master/LICENSE-MIT"
+  }],
   "engines": {
     "node": ">= 0.6.0"
   },
@@ -27,20 +25,5 @@
     "test": "grunt test"
   },
   "main": "lib/index.js",
-  "keywords": [],
-  "cortex": {
-    "dependencies": {
-      "class": "~2.0.5",
-      "lang": "~1.0.0",
-      "jquery": "~1.9.2"
-    },
-    "directories": {
-      "css": "css"
-    },
-    "asyncDependencies": {},
-    "devDependencies": {
-      "neuron": "~4.4.1"
-    },
-    "scripts": {}
-  }
+  "keywords": []
 }
