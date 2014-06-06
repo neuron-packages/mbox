@@ -1,5 +1,5 @@
 # mbox
-[![Build Status](http://browserman.dp:9000/api/app/mbox/badg)](http://search.cortexjs.org/package/mbox)
+[![Build Status](http://browserman.dp:9000/api/app/mbox/badge)](http://search.cortexjs.org/package/mbox)
 
 > The best project ever.
 
