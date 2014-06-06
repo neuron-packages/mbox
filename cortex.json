@@ -2,6 +2,7 @@
   "name": "mbox",
   "main": "lib/index.js",
   "version": "0.1.2",
+  "description": "pop mbox",
   "dependencies": {
     "class": "~2.0.5",
     "lang": "~1.0.0",
